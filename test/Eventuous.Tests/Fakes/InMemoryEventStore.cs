@@ -13,7 +13,7 @@ namespace Eventuous.Tests.Fakes {
             return _storage.TryGetValue(stream, out var existing) ? AddToExisting() : AddToNew();
 
             Task AddToExisting() {
-                if (existing.Count >= expectedVersion.Value)
+                if (existing.Count - 1 > expectedVersion.Value)
                     throw new WrongVersion(expectedVersion, existing.Count - 1);
 
                 existing.AddRange(events);
