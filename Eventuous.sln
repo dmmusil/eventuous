@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C60C6094
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Tests", "test\Eventuous.Tests\Eventuous.Tests.csproj", "{BD44B15F-4131-4A59-B17E-1E2E81D81B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Json", "Eventuous.Json\Eventuous.Json.csproj", "{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Json", "src\Eventuous.Json\Eventuous.Json.csproj", "{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.SqlStreamStore", "Eventuous.SqlStreamStore\Eventuous.SqlStreamStore.csproj", "{2356343D-DD0F-41C2-A393-8D549E28E474}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.SqlStreamStore", "src\Eventuous.SqlStreamStore\Eventuous.SqlStreamStore.csproj", "{2356343D-DD0F-41C2-A393-8D549E28E474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

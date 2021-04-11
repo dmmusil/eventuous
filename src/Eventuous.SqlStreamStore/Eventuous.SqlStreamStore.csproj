@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Eventuous.Json\Eventuous.Json.csproj" />
-      <ProjectReference Include="..\src\Eventuous\Eventuous.csproj" />
+      <ProjectReference Include="..\Eventuous\Eventuous.csproj" />
     </ItemGroup>
 
 </Project>
