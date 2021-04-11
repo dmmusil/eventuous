@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Tests", "test\Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Json", "Eventuous.Json\Eventuous.Json.csproj", "{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.SqlStreamStore", "Eventuous.SqlStreamStore\Eventuous.SqlStreamStore.csproj", "{2356343D-DD0F-41C2-A393-8D549E28E474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC8D63D-30EA-4FFF-B5D3-94EA147DA6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2356343D-DD0F-41C2-A393-8D549E28E474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2356343D-DD0F-41C2-A393-8D549E28E474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2356343D-DD0F-41C2-A393-8D549E28E474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2356343D-DD0F-41C2-A393-8D549E28E474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD44B15F-4131-4A59-B17E-1E2E81D81B86} = {C60C6094-2A03-45B6-AB33-C514C35DF823}
