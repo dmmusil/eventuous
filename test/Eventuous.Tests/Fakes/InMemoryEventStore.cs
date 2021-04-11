@@ -46,7 +46,7 @@ namespace Eventuous.Tests.Fakes {
         // ReSharper disable once ReturnTypeCanBeEnumerable.Local
         List<StreamEvent> FindStream(string stream) {
             if (!_storage.TryGetValue(stream, out var existing))
-                throw new NotFound(stream);
+                throw new Exceptions.StreamNotFound(stream);
 
             return existing;
         }
@@ -56,8 +56,6 @@ namespace Eventuous.Tests.Fakes {
                 : base($"Wrong stream version. Expected {expected.Value}, actual {actual}") { }
         }
 
-        class NotFound : Exception {
-            public NotFound(string stream) : base($"Stream not found: {stream}") { }
-        }
+        
     }
 }
